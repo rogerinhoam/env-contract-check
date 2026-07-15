@@ -1,0 +1,12 @@
+{
+  "name": "env-contract-check",
+  "version": "1.0.0",
+  "description": "CLI sem dependências para conferir variáveis obrigatórias de um arquivo .env.example.",
+  "type": "module",
+  "bin": { "env-contract-check": "./src/cli.js" },
+  "exports": "./src/index.js",
+  "scripts": { "test": "node --test", "check": "node ./src/cli.js --help" },
+  "keywords": ["env", "dotenv", "cli", "validation"],
+  "license": "MIT",
+  "engines": { "node": ">=18" }
+}
